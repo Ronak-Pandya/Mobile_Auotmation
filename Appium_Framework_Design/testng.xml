@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Appium Suite">
+
+    <listeners>
+        <listener class-name="pageObject.android.Listeners"/>
+    </listeners>
+
+    <test name="Test Run">
+        <classes>
+            <class name="pageObject.android.Ecommerce_ts2"/>
+        </classes>
+    </test>
+
+</suite>
