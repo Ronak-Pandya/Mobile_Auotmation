@@ -7,7 +7,7 @@
         <listener class-name="pageObject.android.Listeners"/>
     </listeners>
 
-    <test name="Test Run">
+    <test name="Full Test Suite">
         <classes>
             <class name="pageObject.android.Ecommerce_ts2"/>
         </classes>

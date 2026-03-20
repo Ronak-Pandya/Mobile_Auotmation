@@ -45,7 +45,7 @@ public class BaseTest extends AppiumUtils {
                 "C://Users//Ronak Pandya//Downloads//chromedriver-win64//chromedriver-win64//chromedriver.exe");        options.setApp("C://Users//Ronak Pandya//Downloads//General-Store.apk");
         driver = new AndroidDriver(service.getUrl(), options);
         formPage =  new FormPage(driver);
-        formPage.homepage();
+
 
 
     }

@@ -55,12 +55,6 @@ public class Ecommerce_ts2 extends BaseTest {
 
     }
 
-    @BeforeMethod
-    public void homePageLaunch() {
-
-        formPage.homepage();
-
-    }
 
 
     @DataProvider
