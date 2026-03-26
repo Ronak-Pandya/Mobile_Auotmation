@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Appium Suite">
+
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="pageObject.android.Listeners"/>
+    </listeners>
+
+    <test name="Test Run">
+        <classes>
+            <class name="pageObject.android.Ecommerce_ts_cloud"/>
+        </classes>
+    </test>
+
+</suite>

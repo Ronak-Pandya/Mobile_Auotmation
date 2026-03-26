@@ -42,7 +42,10 @@ public class BaseTest extends AppiumUtils {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel 6 Pro API 36.0");
         options.setCapability("appium:chromedriverExecutable",
-                "C://Users//Ronak Pandya//Downloads//chromedriver-win64//chromedriver-win64//chromedriver.exe");        options.setApp("C://Users//Ronak Pandya//Downloads//General-Store.apk");
+                "C://Users//Ronak Pandya//Downloads//chromedriver-win64//chromedriver-win64//chromedriver.exe");
+        // App path
+
+        options.setApp("C://Users//Ronak Pandya//Downloads//General-Store.apk");
         driver = new AndroidDriver(service.getUrl(), options);
         formPage =  new FormPage(driver);
 
